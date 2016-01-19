@@ -1,4 +1,4 @@
-A simple CLI to render markdown using GitHub's markdown API. By default, the document will render in your browser. Use `--no-browser` to output HTML.
+A simple CLI to preview markdown using GitHub's markdown API. By default, the document will render in your browser. Use `--no-browser` to only output HTML.
 
 ## Examples
 
