@@ -19,5 +19,6 @@ setup(
     install_requires=requirements,
     name='rendermarkdown',
     packages=packages,
+    url='https://github.com/whalerock/rendermarkdown',
     version='0.0.1'
 )
