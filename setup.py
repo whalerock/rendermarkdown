@@ -9,10 +9,6 @@ requirements = [
     'requests'
 ]
 
-test_requirements = [
-    'tox'
-]
-
 setup(
     author='Matt Chung',
     author_email='mchung@whalerockindustries.com',
@@ -23,7 +19,5 @@ setup(
     install_requires=requirements,
     name='rendermarkdown',
     packages=packages,
-    tests_require=test_requirements,
-    test_suite="tox",
     version='0.0.1'
 )

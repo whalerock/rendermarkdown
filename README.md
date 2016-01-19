@@ -7,3 +7,10 @@ rendermarkdown README.md
 rendermarkdown README.md --no-browser
 ```
 
+
+## Testing
+
+```
+$ pip install -r dev-requirements.txt
+$ tox
+```
