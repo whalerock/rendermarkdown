@@ -22,5 +22,5 @@ setup(
     name='rendermarkdown',
     packages=packages,
     url='https://github.com/whalerock/rendermarkdown',
-    version='0.0.2'
+    version='0.0.3'
 )
