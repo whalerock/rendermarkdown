@@ -12,6 +12,8 @@ requirements = [
 setup(
     author='Matt Chung',
     author_email='mchung@whalerockindustries.com',
+    description=('A simple CLI to preview markdown (i.e "README.md") '
+                 'using GitHubs API'),
     entry_points='''
     [console_scripts]
     rendermarkdown=rendermarkdown.cli:cli
@@ -20,5 +22,5 @@ setup(
     name='rendermarkdown',
     packages=packages,
     url='https://github.com/whalerock/rendermarkdown',
-    version='0.0.1'
+    version='0.0.2'
 )
